@@ -1,0 +1,10 @@
+.participant {
+	float: left;
+	width: 20%;
+	margin: 10px;
+}
+
+.participant video {
+	width: 100%;
+	height: auto;
+}

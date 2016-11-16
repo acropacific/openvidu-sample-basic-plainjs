@@ -30,7 +30,7 @@ Then, open in your browser and visit URL https://localhost:8443 (or if you are u
 
 Now you are ready to execute the sample application.
 
-## Execute sample application
+## Executing sample application
 
 In this repository you have a sample JavaScript application that use OpenVidu Development Server to allow videoconferences  between a group of users. Please clone it with the following command (you need git installed in your development machine):
 
@@ -66,5 +66,13 @@ As you can see, the user name and session is filled automatically in the form to
 If you open `http://127.0.0.1:8080` in two tabs, you can simulate two users talking together. You can open as tabs as you want, but you need a very powerful development machine to test 3 or more users.
 
 For now, it is not possible use the sample application from a different computer.
+
+## Sample application code
+
+This application is very simple. It has only 4 files:
+* OpenVidu.js: OpenVidu client. You don't have to manipulate this file. 
+* app.js: Sample application main JavaScritp file. You can manipulate this file to adapt it to your necesities.
+* index.html: HTML file. It contains the HTML code for the form to connect to a videoconference and for the videoconference itself. You can manipulate this file to adapt it to your necesities.
+* style.css: Some CSS classes to style HTML. You can manipulate this file to adapt it to your necesities.
 
 

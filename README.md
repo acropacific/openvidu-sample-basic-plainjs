@@ -1,10 +1,10 @@
 # openvidu-sample-basic-plainjs
 
-This is an OpenVidu sample SPA web page implemented in plain JavaScript (without any JavaScript framework).
+This repository contains a group videoconference sample application implemented using OpenVidu. This application is a SPA page implemented in plain JavaScript (without any JavaScript framework).
 
-## Start OpenVidu service
+## Start OpenVidu Development Server
 
-To develop a OpenVidu app you have to start OpenVidu Development Server. This server included all services needed to develop a videoconference web application. OpenVidu Development Server is distributed in a single docker image. 
+To develop a videoconference application with OpenVidu you first have to start an OpenVidu Development Server, that contains all needed services. OpenVidu Development Server is distributed in a single docker image. 
 
 To execute OpenVidu Development Server in your local development computer, you need to have docker software installed. You can [install it on Windows, Mac or Linux](https://docs.docker.com/engine/installation/).
 
@@ -26,7 +26,7 @@ If you have installed Docker Toolbox in Windows or Mac, you need to know the IP 
 docker-machine ip default
 </pre>
 
-Then, open in your browser and visit URL https://localhost:8443 (or if you are using Docker Toolbox in Windows or Mac visit https://<IP>:8443). Then, browser will complain about insecure certificate. Please accept the selfsigned certificate as valid.
+Then, open in your browser and visit URL `https://localhost:8443` (or if you are using Docker Toolbox in Windows or Mac visit `https://<IP>:8443`). Then, browser will complain about insecure certificate. Please accept the selfsigned certificate as valid.
 
 Now you are ready to execute the sample application.
 

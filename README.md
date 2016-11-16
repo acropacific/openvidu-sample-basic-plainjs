@@ -51,13 +51,13 @@ cd openvidu-sample-basic-plainjs
 http-server ./web
 </pre>
 
-If you are using Docker Toolbox for Windows or Mac, you need to modify the sample application code. You have to change the following line in the file 'web/app.js':
+If you are using Docker Toolbox for Windows or Mac, you need to modify the sample application code. You have to change the following line in the file `web/app.js`:
 
 <pre>
 openVidu = new OpenVidu("wss://127.0.0.1:8443/");
 </pre>
 
-You have to change '127.0.0.1' with the IP of the OpenVidu Development Server obtained in the previous step.
+You have to change `127.0.0.1` with the IP of the OpenVidu Development Server obtained in the previous step.
 
 Then you can go to `http://127.0.0.1:8080` to execute the sample application. 
 
@@ -70,9 +70,9 @@ For now, it is not possible use the sample application from a different computer
 ## Sample application code
 
 This application is very simple. It has only 4 files:
-* OpenVidu.js: OpenVidu client. You don't have to manipulate this file. 
-* app.js: Sample application main JavaScritp file. You can manipulate this file to adapt it to your necesities.
-* index.html: HTML file. It contains the HTML code for the form to connect to a videoconference and for the videoconference itself. You can manipulate this file to adapt it to your necesities.
-* style.css: Some CSS classes to style HTML. You can manipulate this file to adapt it to your necesities.
+* `OpenVidu.js`: OpenVidu client. You don't have to manipulate this file. 
+* `app.js`: Sample application main JavaScritp file. You can manipulate this file to adapt it to your necesities.
+* `index.html`: HTML file. It contains the HTML code for the form to connect to a videoconference and for the videoconference itself. You can manipulate this file to adapt it to your necesities.
+* `style.css`: Some CSS classes to style HTML. You can manipulate this file to adapt it to your necesities.
 
 
